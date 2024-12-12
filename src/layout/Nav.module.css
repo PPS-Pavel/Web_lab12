@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.logo img {
+  padding-left: 130px;
+  width: 100px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin: 0 15px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+.actions{
+  display: flex;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 40px;
+  margin: 0 10px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.request {
+  background-color: rgb(255, 157, 0);
+  color: white;
+  
+}
+
+.calculation {
+  background-color: rgb(56, 0, 120);
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
